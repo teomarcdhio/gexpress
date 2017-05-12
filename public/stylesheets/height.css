@@ -1,0 +1,88 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  line-height: 0.3;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.top{
+  clear: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu{
+  clear: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.main{
+  clear: left;
+  max-height: 80vh;
+  margin: auto;
+}
+
+.focus{
+  clear: both;
+  max-height: 80vh;
+  max-width: 95vw;
+  margin: auto;
+}
+
+.previous{
+  float: left;
+  text-align: left;
+  width: 33%;
+}
+
+#previous{
+  text-align: left;
+  padding-right: 0px;
+}
+
+.title{
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+#title{
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.next{
+  float: left;
+  text-align: right;
+  width: 33%;
+}
+
+#next{
+  text-align: right;
+  padding-left: 0px;
+}
+
+.controls{
+  clear: both;
+}
+
+.info{
+  clear: left;
+  margin: auto;
+}
+
+.footer{
+  clear: left;
+  margin: auto;
+  font-size: 10px;
+}
+
+img{
+  max-width: inherit;;
+  max-height: inherit;
+}

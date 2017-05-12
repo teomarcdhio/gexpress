@@ -1,5 +1,27 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+
+  .top
+      h2 Gallery Title
+    .menu
+      p Menu One | Menu Two | Menu Three | Menu Four
+    .main
+      .focus
+        img(src='/../#{path}', alt='#{gallery}')
+      // span navigation system
+      //
+        Div navigation system
+        <div class="previous"><p>previous</p></div>
+        <div class="title"><p>title</p></div>
+        <div class="next"><p>next</p></div>
+    .controls
+      h4
+        span#previous <<
+        span#title #{gallery}
+        span#next >>
+    .info
+      p #{description}
+    .footer
+      p @ Copyright of the Author Name
